@@ -36,6 +36,59 @@
 		8BBEA4BB147C729200C4ADB7 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461B52E0F94FAF800A0C422 /* libProtocolBuffers.a */; };
 		8BD3981F14BE59D70081D629 /* GPBUnittestProtos.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3981E14BE59D70081D629 /* GPBUnittestProtos.m */; };
 		8BF8193514A0DDA600A2C982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		AC719B8721DDE82F0015D17E /* ProtocolBuffer_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AC719B8521DDE82F0015D17E /* ProtocolBuffer_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B8B21DDE9130015D17E /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4CD0F94F99000A0C422 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B8C21DDE9130015D17E /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F451D3F61A8AAEA600B8A22C /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B8D21DDE9130015D17E /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6B8B31A9CD1C600892426 /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B8E21DDE9130015D17E /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C69CB16DFD08D0081955B /* GPBExtensionInternals.m */; };
+		AC719B8F21DDE9130015D17E /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4A80F94F99000A0C422 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9021DDE9130015D17E /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4A90F94F99000A0C422 /* GPBExtensionRegistry.m */; };
+		AC719B9121DDE9130015D17E /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6B8B51A9CD1C600892426 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9221DDE9130015D17E /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B79657814992E3E002FFBFC /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9321DDE9130015D17E /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B79657914992E3E002FFBFC /* GPBRootObject.m */; };
+		AC719B9421DDE9130015D17E /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6B8B01A9CC99500892426 /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9521DDE9130015D17E /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4AE0F94F99000A0C422 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9621DDE9130015D17E /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4AF0F94F99000A0C422 /* GPBUnknownField.m */; };
+		AC719B9721DDE9130015D17E /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6B8B11A9CCBBB00892426 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9821DDE9130015D17E /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4E10F94F99000A0C422 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9921DDE9130015D17E /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4E20F94F99000A0C422 /* GPBUnknownFieldSet.m */; };
+		AC719B9A21DDE9130015D17E /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 51457B5F18D0B7AF00CCC606 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9B21DDE9130015D17E /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B48E0F94F99000A0C422 /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9C21DDE9130015D17E /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B48F0F94F99000A0C422 /* GPBCodedInputStream.m */; };
+		AC719B9D21DDE9130015D17E /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F44929021C866B3B00C2548A /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9E21DDE9130015D17E /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4900F94F99000A0C422 /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719B9F21DDE9130015D17E /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4910F94F99000A0C422 /* GPBCodedOutputStream.m */; };
+		AC719BA021DDE9130015D17E /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4E70F94F99000A0C422 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA121DDE9130015D17E /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4E80F94F99000A0C422 /* GPBWireFormat.m */; };
+		AC719BA221DDE9130015D17E /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 515B840C18B7DEE30031753B /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA321DDE9130015D17E /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B96157214C8B06000A2AC0B /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA421DDE9130015D17E /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B96157314C8C38C00A2AC0B /* GPBDescriptor.m */; };
+		AC719BA521DDE9130015D17E /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4BE0F94F99000A0C422 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA621DDE9130015D17E /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5196A06918CE16B000B759E2 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA721DDE9130015D17E /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4BF0F94F99000A0C422 /* GPBMessage.m */; };
+		AC719BA821DDE9130015D17E /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4411BE81AF1301700324B4A /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BA921DDE9130015D17E /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F4487C701A9F906200531423 /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BAA21DDE9130015D17E /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F4487C711A9F906200531423 /* GPBArray.m */; };
+		AC719BAB21DDE9130015D17E /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B48D0F94F99000A0C422 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BAC21DDE9130015D17E /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F43725921AC9835D004DCAFB /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BAD21DDE9130015D17E /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F4353D241ABB156F005A6198 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BAE21DDE9130015D17E /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F4353D251ABB156F005A6198 /* GPBDictionary.m */; };
+		AC719BAF21DDE9130015D17E /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEB5AE01498033E0078BF9D /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BB021DDE9130015D17E /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4487C7D1AAE06C500531423 /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BB121DDE9130015D17E /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461B4E50F94F99000A0C422 /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BB221DDE9130015D17E /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B4E60F94F99000A0C422 /* GPBUtilities.m */; };
+		AC719BB321DDE9130015D17E /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4248E11A929C8900BC1EC6 /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC719BB421DDE9130015D17E /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4248E21A929C8900BC1EC6 /* GPBWellKnownTypes.m */; };
+		AC719BB521DDE9130015D17E /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675B71B21D1440054530B /* Any.pbobjc.m */; };
+		AC719BB621DDE9130015D17E /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675B91B21D1440054530B /* Api.pbobjc.m */; };
+		AC719BB721DDE9130015D17E /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4248DE1A929C7D00BC1EC6 /* Duration.pbobjc.m */; };
+		AC719BB821DDE9130015D17E /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675BC1B21D1440054530B /* Empty.pbobjc.m */; };
+		AC719BB921DDE9130015D17E /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675BE1B21D1440054530B /* FieldMask.pbobjc.m */; };
+		AC719BBA21DDE9130015D17E /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675C01B21D1440054530B /* SourceContext.pbobjc.m */; };
+		AC719BBB21DDE9130015D17E /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675C21B21D1440054530B /* Struct.pbobjc.m */; };
+		AC719BBC21DDE9130015D17E /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4248E01A929C7D00BC1EC6 /* Timestamp.pbobjc.m */; };
+		AC719BBD21DDE9130015D17E /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675C51B21D1440054530B /* Type.pbobjc.m */; };
+		AC719BBE21DDE9130015D17E /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E675C71B21D1440054530B /* Wrappers.pbobjc.m */; };
 		F401DC351A8E5C6F00FCC765 /* GPBArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F401DC341A8E5C6F00FCC765 /* GPBArrayTests.m */; };
 		F40EE4F0206BF91E0071091A /* GPBCompileTest01.m in Sources */ = {isa = PBXBuildFile; fileRef = F40EE4CD206BF9170071091A /* GPBCompileTest01.m */; };
 		F40EE4F1206BF91E0071091A /* GPBCompileTest02.m in Sources */ = {isa = PBXBuildFile; fileRef = F40EE4C6206BF9170071091A /* GPBCompileTest02.m */; };
@@ -183,6 +236,9 @@
 		8BD3981D14BE54220081D629 /* unittest_enormous_descriptor.proto */ = {isa = PBXFileReference; lastKnownFileType = text; name = unittest_enormous_descriptor.proto; path = ../../src/google/protobuf/unittest_enormous_descriptor.proto; sourceTree = "<group>"; };
 		8BD3981E14BE59D70081D629 /* GPBUnittestProtos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBUnittestProtos.m; sourceTree = "<group>"; };
 		8BEB5AE01498033E0078BF9D /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		AC719B8321DDE82F0015D17E /* ProtocolBuffer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtocolBuffer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC719B8521DDE82F0015D17E /* ProtocolBuffer_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffer_iOS.h; sourceTree = "<group>"; };
+		AC719B8621DDE82F0015D17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F401DC341A8E5C6F00FCC765 /* GPBArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBArrayTests.m; sourceTree = "<group>"; };
 		F40EE4C2206BF9160071091A /* GPBCompileTest08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBCompileTest08.m; sourceTree = "<group>"; };
 		F40EE4C3206BF9160071091A /* GPBCompileTest04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBCompileTest04.m; sourceTree = "<group>"; };
@@ -293,6 +349,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC719B8021DDE82F0015D17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4487C691A9F8F8100531423 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +389,7 @@
 				7461B52E0F94FAF800A0C422 /* libProtocolBuffers.a */,
 				8BBEA4A6147C727100C4ADB7 /* UnitTests.xctest */,
 				F4487C6E1A9F8F8100531423 /* libTestSingleSourceBuild.a */,
+				AC719B8321DDE82F0015D17E /* ProtocolBuffer_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -335,6 +399,7 @@
 			children = (
 				080E96DDFE201D6D7F000001 /* Core Source */,
 				7461B6940F94FDDD00A0C422 /* Tests */,
+				AC719B8421DDE82F0015D17E /* ProtocolBuffer_iOS */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -548,6 +613,15 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		AC719B8421DDE82F0015D17E /* ProtocolBuffer_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC719B8521DDE82F0015D17E /* ProtocolBuffer_iOS.h */,
+				AC719B8621DDE82F0015D17E /* Info.plist */,
+			);
+			path = ProtocolBuffer_iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -555,6 +629,42 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC719B7E21DDE82F0015D17E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC719BA821DDE9130015D17E /* GPBArray_PackagePrivate.h in Headers */,
+				AC719B9221DDE9130015D17E /* GPBRootObject.h in Headers */,
+				AC719B8C21DDE9130015D17E /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				AC719BA521DDE9130015D17E /* GPBMessage.h in Headers */,
+				AC719B9421DDE9130015D17E /* GPBUnknownField_PackagePrivate.h in Headers */,
+				AC719BB121DDE9130015D17E /* GPBUtilities.h in Headers */,
+				AC719BAD21DDE9130015D17E /* GPBDictionary.h in Headers */,
+				AC719B9521DDE9130015D17E /* GPBUnknownField.h in Headers */,
+				AC719B9821DDE9130015D17E /* GPBUnknownFieldSet.h in Headers */,
+				AC719B9E21DDE9130015D17E /* GPBCodedOutputStream.h in Headers */,
+				AC719B9721DDE9130015D17E /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				AC719BAC21DDE9130015D17E /* GPBDictionary_PackagePrivate.h in Headers */,
+				AC719B8B21DDE9130015D17E /* GPBProtocolBuffers.h in Headers */,
+				AC719B9121DDE9130015D17E /* GPBRootObject_PackagePrivate.h in Headers */,
+				AC719B9A21DDE9130015D17E /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				AC719BA921DDE9130015D17E /* GPBArray.h in Headers */,
+				AC719B8721DDE82F0015D17E /* ProtocolBuffer_iOS.h in Headers */,
+				AC719B9B21DDE9130015D17E /* GPBCodedInputStream.h in Headers */,
+				AC719BB021DDE9130015D17E /* GPBUtilities_PackagePrivate.h in Headers */,
+				AC719BA621DDE9130015D17E /* GPBMessage_PackagePrivate.h in Headers */,
+				AC719BB321DDE9130015D17E /* GPBWellKnownTypes.h in Headers */,
+				AC719B8F21DDE9130015D17E /* GPBExtensionRegistry.h in Headers */,
+				AC719B9D21DDE9130015D17E /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				AC719BAB21DDE9130015D17E /* GPBBootstrap.h in Headers */,
+				AC719BA021DDE9130015D17E /* GPBWireFormat.h in Headers */,
+				AC719BA321DDE9130015D17E /* GPBDescriptor.h in Headers */,
+				AC719BAF21DDE9130015D17E /* GPBRuntimeTypes.h in Headers */,
+				AC719B8D21DDE9130015D17E /* GPBExtensionInternals.h in Headers */,
+				AC719BA221DDE9130015D17E /* GPBDescriptor_PackagePrivate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +732,24 @@
 			productReference = 8BBEA4A6147C727100C4ADB7 /* UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AC719B8221DDE82F0015D17E /* ProtocolBuffer_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC719B8A21DDE82F0015D17E /* Build configuration list for PBXNativeTarget "ProtocolBuffer_iOS" */;
+			buildPhases = (
+				AC719B7E21DDE82F0015D17E /* Headers */,
+				AC719B7F21DDE82F0015D17E /* Sources */,
+				AC719B8021DDE82F0015D17E /* Frameworks */,
+				AC719B8121DDE82F0015D17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolBuffer_iOS;
+			productName = ProtocolBuffer_iOS;
+			productReference = AC719B8321DDE82F0015D17E /* ProtocolBuffer_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F4487C551A9F8F8100531423 /* TestSingleSourceBuild */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4487C6B1A9F8F8100531423 /* Build configuration list for PBXNativeTarget "TestSingleSourceBuild" */;
@@ -653,6 +781,11 @@
 						LastSwiftMigration = 0940;
 						TestTargetID = 8B9A5EA41831993600A9D33B;
 					};
+					AC719B8221DDE82F0015D17E = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = C55QX942L5;
+						ProvisioningStyle = Automatic;
+					};
 					F45BBC0E1B0CDB50002D064D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -673,6 +806,7 @@
 				8BBEA4A5147C727100C4ADB7 /* UnitTests */,
 				F4487C551A9F8F8100531423 /* TestSingleSourceBuild */,
 				F45BBC0E1B0CDB50002D064D /* Compile Unittest Protos */,
+				AC719B8221DDE82F0015D17E /* ProtocolBuffer_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -687,6 +821,13 @@
 				F43C88D0191D77FC009E917D /* text_format_unittest_data.txt in Resources */,
 				8B210CD0159386920032D72D /* golden_packed_fields_message in Resources */,
 				F45E57C91AE6DC98000B7D99 /* text_format_map_unittest_data.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC719B8121DDE82F0015D17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,6 +943,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC719B7F21DDE82F0015D17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC719BAA21DDE9130015D17E /* GPBArray.m in Sources */,
+				AC719BAE21DDE9130015D17E /* GPBDictionary.m in Sources */,
+				AC719BB821DDE9130015D17E /* Empty.pbobjc.m in Sources */,
+				AC719B9021DDE9130015D17E /* GPBExtensionRegistry.m in Sources */,
+				AC719B9621DDE9130015D17E /* GPBUnknownField.m in Sources */,
+				AC719B9C21DDE9130015D17E /* GPBCodedInputStream.m in Sources */,
+				AC719BB921DDE9130015D17E /* FieldMask.pbobjc.m in Sources */,
+				AC719BB221DDE9130015D17E /* GPBUtilities.m in Sources */,
+				AC719BA721DDE9130015D17E /* GPBMessage.m in Sources */,
+				AC719BA121DDE9130015D17E /* GPBWireFormat.m in Sources */,
+				AC719BB721DDE9130015D17E /* Duration.pbobjc.m in Sources */,
+				AC719BB521DDE9130015D17E /* Any.pbobjc.m in Sources */,
+				AC719BBD21DDE9130015D17E /* Type.pbobjc.m in Sources */,
+				AC719B8E21DDE9130015D17E /* GPBExtensionInternals.m in Sources */,
+				AC719BBE21DDE9130015D17E /* Wrappers.pbobjc.m in Sources */,
+				AC719BBA21DDE9130015D17E /* SourceContext.pbobjc.m in Sources */,
+				AC719B9321DDE9130015D17E /* GPBRootObject.m in Sources */,
+				AC719BA421DDE9130015D17E /* GPBDescriptor.m in Sources */,
+				AC719B9F21DDE9130015D17E /* GPBCodedOutputStream.m in Sources */,
+				AC719B9921DDE9130015D17E /* GPBUnknownFieldSet.m in Sources */,
+				AC719BB421DDE9130015D17E /* GPBWellKnownTypes.m in Sources */,
+				AC719BB621DDE9130015D17E /* Api.pbobjc.m in Sources */,
+				AC719BBB21DDE9130015D17E /* Struct.pbobjc.m in Sources */,
+				AC719BBC21DDE9130015D17E /* Timestamp.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4487C5A1A9F8F8100531423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -906,6 +1078,106 @@
 					"-Wno-reserved-id-macro",
 					"-Wno-direct-ivar-access",
 				);
+			};
+			name = Release;
+		};
+		AC719B8821DDE82F0015D17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C55QX942L5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = ProtocolBuffer_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wirecard.ProtocolBuffer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC719B8921DDE82F0015D17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C55QX942L5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = ProtocolBuffer_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wirecard.ProtocolBuffer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1100,6 +1372,15 @@
 			buildConfigurations = (
 				8BBEA4A7147C727100C4ADB7 /* Debug */,
 				8BBEA4A8147C727100C4ADB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC719B8A21DDE82F0015D17E /* Build configuration list for PBXNativeTarget "ProtocolBuffer_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC719B8821DDE82F0015D17E /* Debug */,
+				AC719B8921DDE82F0015D17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
